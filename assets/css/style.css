@@ -10,8 +10,18 @@
   font-family: TUL;
   src: url("../font/PPTelegraf-UltraLight.otf");
 }
-*::-webkit-scrollbar {
-  display: none;
+/* CAMBIAR COLOR SCROLL */
+::-webkit-scrollbar {
+  width: 7.5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: none; 
+  border-radius: 0;
+  background-color: #281e43;
+}
+::-webkit-scrollbar-thumb {
+  background: #ed6e1d; 
+  border-radius: 0;
 }
 *,
 *:after,
@@ -55,7 +65,7 @@ li div {
 .container-one {
   background-color: #281e43;
   font-family: TR;
-  color: #fff;
+  color: #ffffff80;
   font-size: 45px;
   text-align: center;
 }
@@ -75,7 +85,7 @@ li div {
   background-image: url("../img/models.gif");
   background-position: center;
   background-size: cover;
-  filter: brightness(50%);
+  filter: brightness(80%);
 }
 .one-text-container{
   padding: 20px;
@@ -86,6 +96,19 @@ li div {
   height: 100%;
   position: relative;
   text-shadow: 20px 20px 50px #00000050;
+}
+.not-agency-big{
+  width: 330px;
+  padding-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .not-agency-big {
+    width: 275px;
+    padding-bottom: 8px;
+  }
+  .container-one {
+    font-size: 37px;
+  }
 }
 
 
