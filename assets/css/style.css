@@ -10,6 +10,14 @@
   font-family: TUL;
   src: url("../font/PPTelegraf-UltraLight.otf");
 }
+@font-face {
+  font-family: MIV;
+  src: url("../font/Montserrat-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: MV;
+  src: url("../font/Montserrat-VariableFont_wght.ttf");
+}
 /* CAMBIAR COLOR SCROLL */
 ::-webkit-scrollbar {
   width: 7.5px;
