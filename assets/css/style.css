@@ -537,8 +537,8 @@ iframe, .videos {
 }
 .card{
   padding: 15px;
-  background-color: #f4f4f4;
-  border-color: #f4f4f4;
+  background-color: #fafafa;
+  border-color: #fafafa;
   box-shadow: 10px 10px 20px #00000020;
   max-width: 320px;
 }
@@ -564,4 +564,19 @@ iframe, .videos {
 .card-social{
   width: 40px;
   height: 40px;
+}
+.card-contact{
+  padding: 8px;
+  background-color: #25d366;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: MV;
+  font-size: 18px;
+  transition: 0.25s;
+}
+
+.card-contact:hover{
+  background-color: #21c35c;
+  transition: 0.25s;
 }
