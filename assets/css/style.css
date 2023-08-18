@@ -147,6 +147,10 @@ a {
 .hero-desktop {
   height: 100vh;
 }
+.hero-desktop-category {
+  padding-top: 50px;
+  height: 450px;
+}
 iframe, .videos {
   height: auto;
   object-fit: cover;
@@ -508,4 +512,56 @@ iframe, .videos {
 .slider .slide {
   height: 100%;
   width: 300px;
+}
+
+.contacto-categoria{
+  padding-top: 50px;
+  margin-top: 70px;
+}
+
+.category-container{
+  padding: 0 50px 0 50px;
+}
+.category-label{
+  font-family: TUB;
+  padding: 50px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.card{
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+  box-shadow: 10px 10px 20px #00000020;
+  max-width: 320px;
+}
+.card-img{
+  border-radius: 5px;
+  max-width: 300px;
+}
+.name{
+  font-family: TUB;
+  padding: 15px 0 5px;
+  font-size: 20px;
+}
+.description{
+  font-family: MV;
+  padding: 0px 0 5px;
+}
+.social-links{
+  padding-top: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-social{
+  width: 40px;
+  height: 40px;
 }
