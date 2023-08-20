@@ -149,7 +149,7 @@ a {
 }
 .hero-desktop-category {
   padding-top: 50px;
-  height: 450px;
+  height: 550px;
 }
 iframe, .videos {
   height: auto;
@@ -190,10 +190,12 @@ iframe, .videos {
 }
 .notcode-link {
   font-family: TUB;
-  font-size: 45px;
+  font-size: 40px;
+  text-align: center;
   color: #fff;
 }
 .code-text {
+  text-align: center;
   font-family: MV;
   color: #fff;
   font-size: 29px;
@@ -417,6 +419,7 @@ iframe, .videos {
   position: relative;
 }
 .contact-container {
+  padding-top: 50px;
   color: #ffffff;
   background-color: #000;
 }
@@ -526,7 +529,7 @@ iframe, .videos {
   font-family: TUB;
   padding: 50px;
   padding-bottom: 20px;
-  font-size: 30px;
+  font-size: 35px;
 }
 .card-container{
   display: flex;
@@ -541,6 +544,10 @@ iframe, .videos {
   border-color: #fafafa;
   box-shadow: 10px 10px 20px #00000020;
   max-width: 320px;
+  min-height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .card-img{
   border-radius: 5px;
@@ -575,8 +582,73 @@ iframe, .videos {
   font-size: 18px;
   transition: 0.25s;
 }
-
 .card-contact:hover{
   background-color: #21c35c;
   transition: 0.25s;
+}
+.nuestros{
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 50px;
+  margin: 0;
+}
+.hero-small{
+  font-size: 20px;
+  max-width: 400px;
+}
+.catergory-description{
+  font-size: 20px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  max-width: 800px;
+}
+.incognito{
+  text-align: center;
+  background-color: #25d366;
+  border-radius: 6px;
+  padding: 50px;
+  font-family: TUB;
+  font-size: 20px;
+  transition: 0.25s;
+}
+.incognito:hover{
+  background-color: #21c35c;
+  transition: 0.25s;
+}
+@media (max-width: 800px) {
+  .catergory-description{
+    padding-left: 0;
+  }
+  .category-label{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+}
+.hero-nosotros {
+  height: 300px;
+  background-image: url("../img/background-hero.png");
+  background-position: bottom;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nosotros{
+  padding-top: 120px;
+  background-color: none;
+}
+.somos-nosotros{
+  padding-bottom: 50px;
+}
+.texto-nosotros{
+  padding: 60px 20px 20px 20px;
+  max-width: 700px;
+  margin: auto auto;
+}
+.photo-nosotros{
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
