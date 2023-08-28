@@ -36,7 +36,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  user-select: none;
   scroll-behavior: smooth;
 }
 img, video{
@@ -47,6 +46,9 @@ img, video{
 a {
   text-decoration: none;
   color: #ffffff;
+}
+body{
+  background-color: #000;
 }
 .nav {
   width: 100%;
@@ -417,12 +419,32 @@ iframe, .videos {
   position: relative;
   padding: 0;
   margin: 0;
+  padding-bottom: 40px;
+}
+.block-text{
+  color: #fff;
+  font-family: TUB;
+  position: relative;
+  font-size: 20px;
+}
+.hablemos-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.reverse{
+  filter: invert(1);
 }
 .instagram {
   padding-bottom: 20px;
   width: 50px;
   height: 70px;
   position: relative;
+}
+.ig-small{
+  width: 45px;
+  height: 65px;
 }
 .contact-container {
   padding-top: 50px;
@@ -491,6 +513,9 @@ iframe, .videos {
     height: 40px;
     bottom: 30px;
     right: 30px;
+  }
+  .hablemos-container{
+    flex-direction: column;
   }
 }
 @keyframes scroll {
@@ -649,12 +674,22 @@ iframe, .videos {
   padding-bottom: 50px;
 }
 .texto-nosotros{
-  padding: 60px 20px 20px 20px;
+  padding: 0px 20px 90px 20px;
   max-width: 700px;
   margin: auto auto;
+  color: #fff;
+  font-family: MV;
+  font-size: 19px;
+  text-align: center;
 }
 .photo-nosotros{
   border-radius: 6px;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+.conocenos-card{
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #000;
+  gap: 10px;
 }
